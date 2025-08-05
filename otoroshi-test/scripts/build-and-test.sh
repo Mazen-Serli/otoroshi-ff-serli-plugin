@@ -111,10 +111,6 @@ javaArgs=(
 )
 
 echo
-echo "Configuration Otoroshi:"
-echo "- Port: 9000"
-echo "- Admin: admin/password"
-echo "- Interface: http://localhost:9000"
 echo
 echo "Demarrage en cours..."
 

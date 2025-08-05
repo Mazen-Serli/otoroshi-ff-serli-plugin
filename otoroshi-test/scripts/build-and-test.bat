@@ -104,10 +104,6 @@ set "classPath=plugins\*;app\otoroshi.jar"
 set "javaArgs=-cp "%classPath%" -Dotoroshi.http.port=9000 -Dotoroshi.adminLogin=admin -Dotoroshi.adminPassword=password -Dotoroshi.storage=file play.core.server.ProdServerStart"
 
 echo.
-echo Configuration Otoroshi:
-echo - Port: 9000
-echo - Admin: admin/password
-echo - Interface: http://localhost:9000
 echo.
 echo Demarrage en cours...
 

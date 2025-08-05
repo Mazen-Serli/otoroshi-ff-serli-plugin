@@ -1,0 +1,53 @@
+/.bsp/
+target/
+.bsp
+.DS_Store
+.idea
+.metals
+.vscode
+target
+node_modules
+/otoroshi-test/filedb
+/otoroshi-test/logs/application.log
+/otoroshi-test/plugins/*
+# Otoroshi JAR files - should be downloaded automatically
+/otoroshi-test/app/otoroshi.jar
+
+# SBT specific
+target/
+project/target/
+.cache
+.history
+.lib/
+dist/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# Logs
+logs/
+*.log
